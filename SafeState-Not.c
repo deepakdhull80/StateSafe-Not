@@ -9,7 +9,7 @@ int main()
     printf("Enter Number of Resources :"); 
     scanf("%d",&m);
      
-    int alloc[5][4]; 
+    int alloc[n][m]; 
     int o=0;
      for(int i=0;i<n;i++){
          for(int j=0;j<m;j++){
@@ -18,7 +18,7 @@ int main()
                  alloc[i][j]=o;
      }
      }
-    int max[5][4];  
+    int max[n][m];  
     for(int i=0;i<n;i++){
          for(int j=0;j<m;j++){
                  printf("Enter P%d R%d for MAX Matrix :",i,j+1);
